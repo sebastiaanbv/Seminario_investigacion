@@ -5,10 +5,10 @@ description = "Predicción de riesgo de mora en clientes de Confirmeza S.A.S."
 authors = ["sebastiaanbv <jsballenvillalba@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{ include = "src" }]
+package-mode = false
 
 [tool.poetry.dependencies]
-python = ">=3.9"
+python = ">=3.12,<3.13"
 pandas = "^2.2.1"
 numpy = "^1.26.4"
 scikit-learn = "^1.4.1"
@@ -18,6 +18,7 @@ openpyxl = "^3.1.2"
 xgboost = "^2.0.3"
 ipykernel = "^6.29.3"
 jupyter = "^1.0.0"
+ydata-profiling = "^4.16.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
