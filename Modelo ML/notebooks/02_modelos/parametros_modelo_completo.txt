@@ -1,0 +1,7 @@
+Fecha de entrenamiento: 2025-05-04 23:24:39.249910
+
+🔧 Mejor combinación de hiperparámetros:
+{'colsample_bytree': 1.0, 'learning_rate': 0.1, 'max_depth': 8, 'min_child_weight': 1, 'n_estimators': 300, 'subsample': 0.8}
+
+📈 Mejor f1_macro score (validación cruzada):
+0.9752
